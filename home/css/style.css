@@ -718,7 +718,7 @@ textarea {
     }
     
     .image-hero {
-        height: 127px;
+        height: 137px;
     }
 
     .hero-link-btn {
@@ -753,46 +753,4 @@ textarea {
         padding-bottom: 15px;
         font-size: .65em;
     }
-}
-
-.gradient__bg {
-    /* background:-moz-radial-gradient( circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  
-    /* safari 5.1+,chrome 10+ */
-    /* background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  
-    /* opera 11.10+ */
-    /* background:-o-radial-gradient(circleat 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  
-    /* ie 10+ */
-    /* background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  
-    /* global 92%+ browsers support */
-    /* background:radial-gradient(circleat 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  }
-
-
-  .gradient__text {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-
-
-:root {
-  --font-family: 'Manrope', sans-serif;
-
-  /* --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%); */
-  /* background: linear-gradient(103.22deg, rgba(0, 40, 83, 1) -13.86%, rgba(4, 12, 24, 1) 99.55%); */
-  /* background-not used:radial-gradient(circle at 100% 100%, rgba(0, 40, 83, 1) 100%, rgba(4, 12, 24, 1) 100%); */
-    /* padding: 35px;   */
-  
-  --color-bg: #040C18;
-  --color-footer : #031B34;
-  --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
 }
