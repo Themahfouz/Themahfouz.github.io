@@ -174,7 +174,7 @@ nav {
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 145px;
+    width: 95px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -182,9 +182,9 @@ nav {
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: -900%;
+    bottom: -650%;
     /* right: 100%; */
-    margin-left: -80px;
+    margin-left: -100px;
   }
   
   
@@ -207,12 +207,12 @@ nav {
   }
 
   .qrcode {
-    width: 140px;
+    width: 90px;
     height: auto;
   }
 
   .qr-text {
-    font-size: smaller;
+    font-size: small;
   }
 
 .hero {
@@ -506,7 +506,6 @@ textarea {
         display: none;
     }
 }
-
 @media (max-width:900px) {
 
     .icon {
