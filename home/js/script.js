@@ -108,15 +108,18 @@ function myFunction3() {
      })();
 
      function sendmail() {
+        let fullName = document.getElementById("name").value;
         let userEmail = document.getElementById("email").value;
         let userMessage = document.getElementById("message").value;
     
             var contactParams = {
+                from_name: fullName,
                 from_email: userEmail,
                 message: userMessage
             };
     
-            emailjs.send('service_bwcso6n', 'template_63sdojh', contactParams).then(function (res) {})
+            emailjs.send('service_bwcso6n', 'template_63sdojh', contactParams).then(function (res) {alert("success!" + " " + (fullName) + " " + "will get in touch soon")
+        })
     }
     
 
